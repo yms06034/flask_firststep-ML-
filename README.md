@@ -37,3 +37,6 @@ ML model CountVectorizer를 사용해 Text 기반으로 cosine similarity기반 
 > export FLASK_APP=firststep FLASK_ENV=development
 >
 > flask run
+
+RETROSPECTIVE
+##### 크롤링을 진행하는데 두 사이트의 정보를 가져와 동일한 이름을 가진 여행지 명이 있으면 설명을 JOIN 하여 데이터 베이스에 넣어주었는데 두 사이트가 오래된 사이트라 그런지 크롤링하는데 시간이 오래 걸리기는 하지만 지속적인 크롤링을 할 수 있도록 굉장히 많이 노력 하였다.
