@@ -108,5 +108,5 @@ DB_CONNECT_PATH = 'mysql+pymysql://root:password@localhost/klook?charset=utf8'
 engine = create_engine(DB_CONNECT_PATH)
 conn = engine.connect()
 
-df.to_sql(name='travelinfo', con=engine, if_exists='replace')
+df.to_sql(name='travelinfo', con=engine, if_exists='append')
 conn.close()
