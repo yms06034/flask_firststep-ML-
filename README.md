@@ -31,6 +31,9 @@ ML model CountVectorizer를 사용해 Text 기반으로 cosine similarity기반 
 
 ## Prerequisite
 > Python ENV
+>
 > pip install -r requirements.txt
+>
 > export FLASK_APP=firststep FLASK_ENV=development
+>
 > flask run
